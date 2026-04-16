@@ -1,0 +1,24 @@
+def mech_definition():
+    rd = {
+    (5, 0) : ['beta',      [ 8000.0, 0]] ,
+    (0, 5) : ['alpha',     [ 3000.0, 0]] ,
+    (3, 2) : ['d2_plus',   [  120.0, 0]] ,
+    (2, 3) : ['d2_min',    [   19.9, 0]] ,
+    (1, 4) : ['d0_plus',   [    1.0, 0]] ,
+    (4, 1) : ['d0_min',    [    3.0, 0]] ,
+    (5, 3) : ['d1_plus',   [  300.0, 0]] ,
+    (3, 5) : ['d1_min',    [  25.0, 0]] ,
+    (0, 2) : ['d2op_plus', [  120.0, 0]] ,
+    (2, 0) : ['d2op_min',  [   5.26, 0]] ,
+    (4, 3) : ['kd_plus',   [  5000000.0, 1]] ,
+    (3, 4) : ['kd_min',    [ 2500.0, 0]] ,
+    (1, 5) : ['k_plus',    [  5000000.0, 1]] ,
+    (5, 1) : ['k_min',     [40000.0, 0]] ,
+    }
+
+    N_states = 6 # state this rather than obtain automatically.
+
+    #states and their conductances
+    open_states = {0:.4}
+
+    return rd, N_states, open_states
