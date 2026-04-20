@@ -1,5 +1,5 @@
 # Aligator: Analysis of Ligand Gating: trains and other relaxations
-Base code created and developed by Andrew Plested of FMP Berlin to model glutamate receptor gating (https://github.com/aplested/aligator)[https://github.com/aplested/aligator]
+Base code created and developed by Andrew Plested of FMP Berlin to model glutamate receptor gating [https://github.com/aplested/aligator](https://github.com/aplested/aligator).
 GUI coded and packaged by Samuel Liu and Andrew Penn and the University of Sussex
 Aligator is distributed under a GPL-3.0 licence. See LICENCE.txt for more information.
 
